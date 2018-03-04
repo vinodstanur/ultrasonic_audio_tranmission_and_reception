@@ -1,0 +1,11 @@
+PWM is generated on pin number 5 of arduino pro micro.
+40KHz square wave is generated on pin number 9.
+
+To burn:
+   type make p
+
+	 Before that connect device via usb and then reset the chip by connecting reset pin to gnd. Immediately for few seconds it enters into bootloader mode, so need to find the COM port for this and then modify the Makefile COM accordingly.
+
+
+
+CHECK HTTP://BLOG.VINU.CO [dot] IN FOR MORE DETAILS.
